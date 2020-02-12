@@ -1,6 +1,35 @@
-h1 {color: rgb(0, 50, 50);
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+
+body {
+  font-family: "Shadows Into Light", cursive;
+}
+h1 {
+  color: rgb(0, 50, 50);
 color: teal;
 color: #bada55;
 background-color: #556b2f;
 text-align:center;
-font-size:50px}
+font-size:50px
+line-height: 1.65;
+}
+
+p {
+  font-weight: 900;
+font-family}
+
+  b,
+  strong {
+    font-weight: 200;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+}
+a:hover {
+  background-color: pink;
+  font-size: 100px;
+}
+h1:hover {
+  background-color: pink;
+}
