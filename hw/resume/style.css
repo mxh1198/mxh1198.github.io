@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+  width: 800px;
+}
+a {
+  color: teal;
+  text-decoration: none;
+}
+a:hover {
+  background-color: pink;
+}
+
+.header {
+  color: teal;
+}
+
+.picture {
+  height:300px;
+}
+
+.name {
+  color: pink;
+}
+.intro {
+  font-size: 21px;
+}
+.um {
+  color: orange;
+  font-weight: bold;
+}
