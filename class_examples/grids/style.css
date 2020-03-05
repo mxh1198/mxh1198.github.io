@@ -1,6 +1,7 @@
 body {
   width: 900px;
   margin: 0 auto;
+  background-color: pink;
   border: 0px solid blue;
 }
 font-family {}
