@@ -132,7 +132,7 @@ footer {
   height: 150px;
 }
 a:hover {
-  background-color: Magenta;
+  background-color: DarkOrchid;
 }
 
 h1:hover {
@@ -173,7 +173,8 @@ h1 {
 nav a {
   margin-right: 10px;
   color:white;
-  font-size:30px;
+  font-size:28px;
+  border-style:solid;
 }
 
 h2 {
