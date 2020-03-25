@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
 
 body {
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
   background-color: pink;
   border: 0px solid blue;
