@@ -1,0 +1,25 @@
+/* #title {
+  color: blue;
+} */
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: pink;
+  border: 0px solid blue;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.big-text {
+  color: #f9423a;
+  font-size: 120px;
+}
+
+h1 {
+  color: purple;
+  font-size: 80px;
+}
+
+p {
+  color: hotpink;
+  font-size: 35px;
+}
