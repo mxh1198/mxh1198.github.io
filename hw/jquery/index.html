@@ -6,59 +6,84 @@
         <meta name="author:" content="Millie">
         <meta name="descirption" content="This page is an intro to jQuery">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>jQuery Intro</title>
         <link rel="stylesheet" href="style.css">
+        <link href=" https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+        <title>Berry Smoothie</title>
+
     </head>
 
     <body>
-        <h1 id="title"> How to make a berry smoothie</h1>
-        <p>This website will give you the instructions and ingredients needed to make the best berry smoothie!</p>
+        <header>
+            <nav>
+                <h1>How to make a berry smoothie</h1>
+                <a href="#gallery">Photo Gallery</a>
+                <a href="#text1">Ingredients</a>
+                <a href="#text2">Instructions</a>
+                <a href="#text4">Contact me</a>
+            </nav>
 
+        </header>
         <main>
             <section id="gallery">
                 <h2>Photo Gallery</h2>
                 <section class="grid1-container">
-                    <img class="grid1-img-1" src="images/berrysmoothie1.jpg" alt="placeholder pic">
-                    <img class="grid1-img-2" src="images/berries.jpg" alt="placeholder pic">
+                    <img class="grid1-img-1" src="images/berries.png" alt="placeholder pic">
+                    <img class="grid1-img-2" src="images/smoothie.png" alt="placeholder pic">
+                    <img class="grid1-img-3" src="images/smoothiebowl.png" alt="placeholder pic">
+                    <img class="grid1-img-4" src="images/berriebowl.png" alt="placeholder pic">
                 </section>
             </section>
+            <section id="text1">
+                <h2>Ingredients:</h2>
+                <ul class="grid2-text-1">
+
+                    <li>1 cup frozen berries</li>
+                    <li>1 banana</li>
+                    <li>TSP honey</li>
+                    <li>TSP lemon juice</li>
+                    <li>TBSP peanut butter</li>
+                    <li>strawberries (for topping)</li>
+                    <li>granola (for topping)</li>
+                    <li>1 cup water</li>
+                </ul>
+
+                <!-- <p class="grid2-text-2"></p> -->
+            </section>
+
+            <section id="text2">
+                <h2>Instructions:</h2>
+                <ol>
+                    <li>cut up banana into small pieces</li>
+                    <li>put all ingredients in blender (except toppings)</li>
+                    <li>blend until the smoothie is the consistency you like</li>
+                    <li>pour smoothie into a bowl (or a glass)</li>
+                    <li>cut up strawberries into slices</li>
+                    <li> top smoothie with strawberries and granola</li>
+                </ol>
+                <h3>VOILA! The perfect berry smoothie!</h3>
+            </section>
         </main>
-
-        <h2 class="header">Ingredients:</h2>
-        <ul>
-            <li>1 cup frozen berries</li>
-            <li>1 banana</li>
-            <li>TSP honey</li>
-            <li>TSP lemon juice</li>
-            <li>TBSP peanut butter</li>
-            <li>strawberries (for topping)</li>
-            <li>granola (for topping)</li>
-            <li>1 cup water</li>
-        </ul>
-
-        <h2 class="header">Instructions:</h2>
-        <ol>
-            <li>cut up banana into small pieces</li>
-            <li>put all ingredients in blender (except toppings)</li>
-            <li>blend until the smoothie is the consistency you like</li>
-            <li>pour smoothie into a bowl (or a glass)</li>
-            <li>cut up strawberries into slices</li>
-            <li> top smoothie with strawberries and granola</li>
-        </ol>
-        <h3>VOILA! The perfect berry smoothie!</h3>
-        <button type="button" name="button" id="button1">
-            Click me</button>
-        <button type="button" name="button" id="button2">
-            No, click me</button>
-        <script type="text/javascript">
-            <!-- javascript code goes here
-            -->
-
-        </script>
-        <script src="jquery.js" charset="utf-8"></script>
-        <script src="main.js" charset="utf-8"></script>
-        <!-- javascript code goes here
-            -->
+        <footer id="text4">
+            <h3 class="header">Contact me:</h3>
+            <table>
+                <tr>
+                    <th>Phone:</th>
+                    <td><a href="tel:+17868655959">786 865-5959</a></td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td><a href="mailto:mxh1198@miami.edu">mxh1198@miami.edu</a></td>
+                </tr>
+                <tr>
+                    <th>Address:</th>
+                    <td>
+                        <address>
+                            6520 SW 57th Ct, Miami, FL 33143
+                        </address>
+                    </td>
+                </tr>
+            </table>
+        </footer>
 
     </body>
 
