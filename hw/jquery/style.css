@@ -8,6 +8,10 @@ body {
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
+main, footer {
+  background-color: plum;
+}
+
 section {
   margin-bottom: 4%;
 }
@@ -126,7 +130,7 @@ footer {
 }
 
 a:hover {
-  background-color: DarkOrchid;
+  background-color: plum;
 }
 
 h1:hover {
@@ -149,39 +153,35 @@ p {
 }
 
 h1 {
-  color: Purple;
+  color: Plum;
   font-size: 80px;
   /* display: inline; */
-}
-
-.aman-photo {
-  width: 58.5%;
 }
 
 nav a {
   margin-right: 10px;
   color: white;
-  font-size: 28px;
+  font-size: 40px;
   border-style: solid;
 }
 
 h2 {
-  color: slateblue;
-  font-size: 60px;
+  color: purple;
+  font-size: 50px;
 }
 
 h3 {
-  color: mediumvioletred;
+  color: white;
   font-size: 30px;
 }
 
 ul {
-  color: mediumvioletred;
+  color: white;
   font-size: 20px;
 }
 
 ol {
-  color: mediumvioletred;
+  color: white;
   font-size: 20px;
 }
 
