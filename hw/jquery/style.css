@@ -19,7 +19,52 @@ h1 {
   font-size: 80px;
 }
 
+h1:hover {
+  color: hotpink;
+}
+
+.grid1-container {
+  display: grid;
+  /* you can use the following two properties to define the height of your rows or the width of your columns. Units you can use for this are px, %, fr units, and em/rem. */
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* grid-column-gap and grid-row-gap let you set the spacing between grid cells. You can set them uniformly using the grid-gap property. */
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+}
+
+.grid1-img-1 {
+  width: 300px;
+}
+
+.grid1-img-2 {
+  width: 390px;
+}
+
 p {
   color: hotpink;
   font-size: 35px;
+}
+
+h2 {
+  color: purple;
+  font-size: 50px;
+}
+
+h2:hover {
+  background-color: peachpuff;
+}
+
+h3 {
+  color: Palevioletred;
+  font-size: 40px
+}
+
+li {
+  color: palevioletred;
+  font-size: 30px;
+}
+
+li:hover {
+  background-color: peachpuff;
 }
