@@ -18,6 +18,7 @@ section {
 
 img {
   width: 100%;
+  display: none;
 }
 
 /* A gallery grid */
@@ -147,14 +148,16 @@ h3:hover {
 p {
   color: white;
   font-family: sans-serif;
-  margin-top: 0;
+  margin-top: 10;
   padding-top: 0;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 h1 {
-  color: Plum;
-  font-size: 80px;
+  color: plum;
+  font-size: 70px;
+  font-family: impact, Charcoal, sans-serif;
+  text-shadow: 0 0 20px #FFF0F5, 0 0 30px #9370DB;
   /* display: inline; */
 }
 
@@ -185,14 +188,9 @@ ol {
   font-size: 25px;
 }
 
-ul:hover {
+/* ul:hover, ol:hover {
   background-color: peachpuff;
-}
-
-ol:hover {
-  background-color: peachpuff;
-}
-
+} */
 h4 {
   color: pink;
   font-size: 50px;

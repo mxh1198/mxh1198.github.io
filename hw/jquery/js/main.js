@@ -1,26 +1,40 @@
 $(document).ready(function() {
   //all js goes in here
   console.log("we loaded");
-
-  $("#button1").click(function() {
-    // code that runs when you click on the part of the page that has the id="title"
-    // $("#title").css("font-size", "125px");
-    // $("#title").css("color", "#f9423a");
-    $("#title").addClass("big-text");
+  $("img").fadeIn(2000);
+  $("#hover1").mouseover(function() {
+    // what happens when our mouse is over the lists.
+    $("#hover1").css("background-color", "PeachPuff");
+  });
+  $("#hover1").mouseleave(function() {
+    // what happens when our mouse is over the lists.
+    $("#hover1").css("background-color", "transparent");
   });
 
-  $("#button2").click(function() {
-    // stuff we put here will happen when you click button 2.
-    $("#title").removeClass("big-text");
+  $("#hover2").mouseover(function() {
+    // what happens when our mouse is over the lists.
+    $("#hover2").css("background-color", "PeachPuff");
+  });
+  $("#hover2").mouseleave(function() {
+    // what happens when our mouse is over the lists.
+    $("#hover2").css("background-color", "transparent");
+  });
+  $("#hover3").mouseover(function() {
+    // what happens when our mouse is over the lists.
+    $("#hover3").css("background-color", "PeachPuff");
+  });
+  $("#hover3").mouseleave(function() {
+    // what happens when our mouse is over the lists.
+    $("#hover3").css("background-color", "transparent");
   });
 
-  $("p").mouseover(function() {
-    $("p").css("font-size", "21px");
+  $("#thankyou").click(function() {
+    // change message to say thank youy.
+    $("#thankyou").html("You're welcome!");
   });
-
-  $("p").mouseleave(function() {
-    $("p").css("background-color", "peachpuff");
-  });
+  // $("p").mouseleave(function() {
+  //   $("p").css("background-color", "peachpuff");
+  // });
   // $("#title").css("color", "#bada55");
   // $("#title").css("font-size", "125px");
   // $("#title").html("<p>More information #1</p>");
