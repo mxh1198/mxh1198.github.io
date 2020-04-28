@@ -35,6 +35,14 @@ $(document).ready(function() {
     // what happens when our mouse is over the lists.
     $("#hover4").css("background-color", "transparent");
   });
+  $("#hover5").mouseover(function() {
+    // what happens when our mouse is over the lists.
+    $("#hover5").css("background-color", "PeachPuff");
+  });
+  $("#hover5").mouseleave(function() {
+    // what happens when our mouse is over the lists.
+    $("#hover5").css("background-color", "transparent");
+  });
 
   $("#thankyou").click(function() {
     // change message to say thank youy.
