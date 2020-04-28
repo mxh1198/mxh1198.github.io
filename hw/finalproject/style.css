@@ -18,7 +18,7 @@ section {
 }
 
 img {
-  width: 100%;
+  width: 90%;
   display: none;
 }
 
@@ -39,11 +39,9 @@ p {
   grid-column: 1/2;
   grid-row: 1/2;
 } */
-
 .grid2-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 20px;
 }
 
 .grid2-hed {
@@ -60,7 +58,6 @@ p {
   grid-column: 3/4;
   grid-row: 1/2;
 } */
-
 footer {
   margin-top: 120px;
   border-top: 3px solid #556b2f;
@@ -72,16 +69,12 @@ a:hover {
   background-color: white;
 }
 
-h1:hover {
-  background-color: PeachPuff;
-}
-
 p {
   color: white;
   font-family: sans-serif;
   margin-top: 10;
   padding-top: 0;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 h1 {
@@ -90,6 +83,7 @@ h1 {
   font-family: 'Anton', sans-serif;
   font-size: 120px;
   margin-bottom: 10px;
+  margin-left: 200px;
 }
 
 nav a {
@@ -99,17 +93,20 @@ nav a {
   padding: 0 15px;
   border-style: solid;
   text-decoration: none;
+  margin-left: 90px;
 }
 
 h2 {
-  color: peachpuff;
+  color: plum;
   font-size: 70px;
   margin-bottom: 20px;
+  font-family: 'Anton', sans-serif;
 }
 
 h3 {
-  color: plum;
-  font-size: 50px;
+  color: peachpuff;
+  font-size: 60px;
+  margin-bottom: -5px
 }
 
 ul {
@@ -120,7 +117,9 @@ ul {
 
 ol {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
+  margin-left: -100px;
+  margin-top: -8px;
 }
 
 /* ul:hover, ol:hover {
@@ -128,7 +127,7 @@ ol {
 } */
 h4 {
   /* change color */
-  color: pink;
+  color: peachpuff;
   text-decoration: underline;
   font-size: 40px;
   margin-top: 0;
@@ -136,7 +135,7 @@ h4 {
 }
 
 video {
-  width: 95%;
+  width: 75%;
 }
 
 th {
@@ -151,4 +150,8 @@ td {
 
 a {
   color: plum;
+}
+
+.image1 {
+  width: 70%;
 }
