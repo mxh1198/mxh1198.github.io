@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 body {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   background-color: lightblue;
   border: 0px solid blue;
   font-family: 'PT Sans Narrow', sans-serif;
+}
+
+nav {
+  margin-bottom: 45px;
 }
 
 section {
@@ -15,11 +20,14 @@ section {
 img {
   width: 100%;
   display: none;
-  padding-top: 45px;
+}
+
+p {
+  margin-top: 0;
 }
 
 /* A gallery grid */
-.grid1-container {
+/* .grid1-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -30,11 +38,11 @@ img {
 .grid1-img-1 {
   grid-column: 1/2;
   grid-row: 1/2;
-}
+} */
 
 .grid2-container {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 20px;
 }
 
@@ -48,10 +56,10 @@ img {
   grid-row: 1/2;
 }
 
-.grid2-text-2 {
+/* .grid2-text-2 {
   grid-column: 3/4;
   grid-row: 1/2;
-}
+} */
 
 footer {
   margin-top: 120px;
@@ -79,26 +87,24 @@ p {
 h1 {
   color: plum;
   font-size: 100px;
-
-  font-family: <link href='https://fonts.googleapis.com/css?family=Anton'rel='stylesheet'><style>body {
-    font-family: 'Anton';
-    font-size: 22px;
-  }
-
-  </style>;
-  /* display: inline; */
+  font-family: 'Anton', sans-serif;
+  font-size: 120px;
+  margin-bottom: 10px;
 }
 
 nav a {
   margin-right: 10px;
   color: peachpuff;
   font-size: 40px;
+  padding: 0 15px;
   border-style: solid;
+  text-decoration: none;
 }
 
 h2 {
   color: peachpuff;
   font-size: 70px;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -109,6 +115,7 @@ h3 {
 ul {
   color: white;
   font-size: 30px;
+  margin-top: 10px;
 }
 
 ol {
@@ -120,8 +127,12 @@ ol {
   background-color: peachpuff;
 } */
 h4 {
+  /* change color */
   color: pink;
-  /* font-size: px; */
+  text-decoration: underline;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 video {

@@ -1,71 +1,76 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="author:" content="Millie">
-        <meta name="descirption" content="This page is an intro to jQuery">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        <link href=" https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
-        <title>Fit with Millie</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="author:" content="Millie">
+    <meta name="descirption" content="This page is an intro to jQuery">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href=" https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <title>Fit with Millie</title>
 
-    </head>
+</head>
 
-    <body>
-        <header>
-            <nav>
-                <h1>FIT WITH MILLIE</h1>
-                <a href="#recipe">Healthy Recipe</a>
-                <a href="#workout">Workout</a>
-                <a href="#contact">Contact me</a>
+<body>
+    <header>
+        <nav>
+            <h1>FIT WITH MILLIE</h1>
+            <a href="#recipe">Healthy Recipe</a>
+            <a href="#workout">Workout</a>
+            <a href="#contact">Contact me</a>
+        </nav>
+        <br>
+    </header>
+    <main>
+        <section class="grid2-container">
+            <section class="grid2-hed">
+                <img src="images/diving.jpg" alt="diving">
+            </section>
 
-            </nav>
+            <p class="grid2-text-1">
+                Hey! I'm Millie, and I'm a 20 year old student-athlete at the University of Miami! This website is
+                designed to help you live a fit and healthy lifestyle. It has one of my favorite healthy recipes, and
+                two of my favorite workouts! Enjoy!
+            </p>
+        </section>
 
-        </header>
-        <main>
+        <section id="recipe">
+            <h2>Healthy recipe:</h2>
+            <p>This is a test. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                id est laborum. </p>
+            <h3>Chia seed pudding</h3>
             <section class="grid2-container">
                 <section class="grid2-hed">
-                    <img src="images/diving.jpg" alt="diving">
+                    <img src="images/chiapudding.jpg" alt="chiapudding">
+                    <!-- <img src="images/chia.jpg" alt="chia"> -->
 
                 </section>
 
-                <p class="grid2-text-1">
-                    Hey! I'm Millie, and I'm a 20 year old student-athlete at the University of Miami! This website is designed to help you live a fit and healthy lifestyle. It has one of my favorite healthy recipes, and two of my favorite workouts! Enjoy!
-                </p>
-            </section>
+                <section class="grid2-text-1">
+                    <h4>What you need:</h4>
+                    <ul id="hover1">
 
-            <section id="recipe">
-                <h2>Healthy recipe:</h2>
-                <p>This is a test. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                <h3>Chia seed pudding</h3>
-                <section class="grid2-container">
-                    <section class="grid2-hed">
-                        <img src="images/chiapudding.jpg" alt="chiapudding">
-                        <img src="images/chia.jpg" alt="chia">
+                        <li>2 TBSP chia seeds</li>
+                        <li>Half a cup dairy/non dairy milk</li>
+                        <li>Vanilla extract</li>
+                        <li>Berries</li>
+                        <li>Kiwi fruit</li>
+                    </ul>
 
-                    </section>
+                    <h4>Directions:</h4>
+                    <ul>
+                        <li>Mix chia seeds and milk thoroughly in a jar</li>
+                        <li>Let sit for 10 minutes, then mix again</li>
+                        <li>Cover and refrigarate overnight</li>
+                        <li>Once its ready to eat, prepare berries and kiwi for topping and add to the pudding</li>
+                        <li>Enjoy!</li>
 
-                    <p class="grid2-text-1">
-                        <h4>What you need:</h4>
-                        <ul id="hover1">
-
-                            <li>2 TBPS chia seeds</li>
-                            <li>Half a cup dairy/non dairy milk</li>
-                            <li>Vanilla extract</li>
-                            <li>Berries</li>
-                            <li>Kiwi fruit</li>
-
-                            <li>Mix chia seeds and milk thoroughly in a jar</li>
-                            <li>Let sit for 10 minutes, then mix again</li>
-                            <li>Cover and refrigarate overnight</li>
-                            <li>Once its ready to eat, prepare berries and kiwi for topping and add to the pudding</li>
-                            <li>Enjoy!</li>
-
-                        </ul>
-
-                    </p>
+                    </ul>
                 </section>
             </section>
             <section id="workout">
@@ -73,8 +78,9 @@
                 <h3>Ab workout</h3>
                 <section class="grid2-container">
                     <section class="grid2-hed">
-                        <video src="videos/ab.mov" alt="abs"> </video>
-
+                        <video controls autoplay>
+                            <source src="@@ADD VIDEO" type="video/mp4">
+                        </video>
 
                     </section>
 
@@ -149,10 +155,10 @@
                 </table>
             </footer>
 
-        </main>
+    </main>
 
-        <script src="js/jquery.js" charset="utf-8"></script>
-        <script src="js/main.js" charset="utf-8"></script>
-    </body>
+    <script src="js/jquery.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+</body>
 
 </html>
