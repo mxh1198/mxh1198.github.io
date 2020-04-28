@@ -44,10 +44,24 @@ $(document).ready(function() {
     $("#hover5").css("background-color", "transparent");
   });
 
-  $("#thankyou").click(function() {
-    // change message to say thank youy.
-    $("#thankyou").html("You're welcome!");
+  $("#hover6").mouseover(function() {
+    // what happens when our mouse is over the lists.
+    $("#hover6").css("background-color", "PeachPuff");
   });
+  $("#hover6").mouseleave(function() {
+    // what happens when our mouse is over the lists.
+    $("#hover6").css("background-color", "transparent");
+  });
+  $("#hover7").mouseover(function() {
+    // what happens when our mouse is over the lists.
+    $("#hover7").css("background-color", "PeachPuff");
+  });
+  $("#hover7").mouseleave(function() {
+    // what happens when our mouse is over the lists.
+    $("#hover7").css("background-color", "transparent");
+  });
+
+
   // $("p").mouseleave(function() {
   //   $("p").css("background-color", "peachpuff");
   // });
