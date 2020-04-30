@@ -2,6 +2,7 @@ $(document).ready(function() {
   //all js goes in here
   console.log("we loaded");
   $("img").fadeIn(2000);
+
   $("#hover1").mouseover(function() {
     // what happens when our mouse is over the lists.
     $("#hover1").css("background-color", "PeachPuff");
