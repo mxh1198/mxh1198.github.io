@@ -4,58 +4,12 @@
   /* put in here the css for things that need to change this size */
   body {
     background-color: Pink;
-    margin: 15%;
+    margin: 4%;
   }
 
   h1 {
     font-size: 70px;
     margin-left: 25px;
-  }
-
-  h2 {
-    margin-top: -20px;
-  }
-
-  h3 {
-    margin-top: -20px;
-  }
-
-  h4 {
-    margin-top: -20px;
-  }
-
-  ol {
-    margin-top: -20px;
-    margin-right: 20px;
-  }
-
-  ul {
-    margin-top: -10px;
-  }
-
-  grid1-container, .grid-container-1 {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-  }
-
-  .grid1-img-1, .g1-img-1 {
-    grid-column: 1/2;
-    grid-row: 1/2;
-  }
-
-  .grid1-img-2, .g1-img-2 {
-    grid-column: 1/2;
-    grid-row: 2/3;
-  }
-
-  .grid1-img-3, .g1-img-3 {
-    grid-column: 1/2;
-    grid-row: 3/4;
-  }
-
-  .grid1-img-4, .g1-img-4 {
-    grid-column: 1/2;
-    grid-row: 4/5;
   }
 
   .grid2-container {
